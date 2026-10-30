@@ -1,0 +1,128 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.header-blue {
+
+    background-color: navy;
+    color: white;
+    padding: 25px;
+    text-align: left;
+    border-radius: 10px;
+    margin-bottom: 0px;
+}
+
+.header-blue h1 {
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.header-blue h2 {
+    margin-bottom: 0;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid navy;
+    margin: 20px;
+ }
+ .name1 {
+    color: navy;
+ }
+ .name2 {
+    color: gray;
+    .name3 {
+        color: rgb(79, 79, 79);
+    }
+ }
+
+ .profile {
+    padding: 20px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+ }  
+
+/* Настройки первой секции */
+.contacts {
+    background-color: lightblue;
+    padding: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+}
+
+.mail, .phone {
+    display: inline-block;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+
+}
+/* Настройки второй секции */
+.skills {
+    background-color: lightyellow;
+    padding: 20px;
+    margin-bottom: 0px;
+    border-radius: 10px;
+
+}
+
+/* Заголовок первой секции */
+.contacts h2 {
+    color: navy;
+    
+    
+}
+
+/* Заголовок второй секции */
+.skills h2 {
+    color: red;
+}
+
+/* Электронная почта */
+.mail {
+    color: gray;
+}
+
+/* Телефон */
+.phone {
+    color: gray;
+}
+
+/* Названия навыков */
+.html, .css, .js {
+    font-weight: bold;
+    color: navy;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+/* Описания навыков */
+.c1, .c2, .c3 {
+    color: gray;
+}
+
+.p1, .p2, .p3 {
+    display:inline-block;
+    background-color: white;
+    width: 200px;
+    padding:20px;
+    margin: 10px;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+footer {
+    display: block;
+    background-color: navy;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
